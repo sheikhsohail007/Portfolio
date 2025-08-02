@@ -1276,3 +1276,39 @@
     grid-template-columns: 1fr;
   }
 }
+.creative-role {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.loop-loader {
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.words {
+  display: flex;
+  flex-direction: column;
+  animation: scrollUp 10s linear infinite;
+}
+
+.words span {
+  height: 40px;
+  line-height: 40px;
+  color: #956afa;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
