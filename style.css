@@ -657,7 +657,21 @@
     bottom: 0;
     background: 
         linear-gradient(135deg, rgba(76, 175, 80, 0.7) 0%, rgba(139, 195, 74, 0.5) 100%),
-        url('rope-physics.jpg') center/cover;
+        url('rope.png') center/cover;
+    transition: var(--transition);
+}
+
+/* Project 4 - Ummah Hub */
+.project-card:nth-child(4) .project-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        linear-gradient(135deg, rgba(76, 175, 80, 0.7) 0%, rgba(139, 195, 74, 0.5) 100%),
+        url('rope.png') center/cover;
     transition: var(--transition);
 }
         /* Enhanced hover effects for each project */
